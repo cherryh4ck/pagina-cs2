@@ -97,6 +97,7 @@ nav img:hover{
     border: 0;
     font-size: 22px;
     transition: all 200ms; 
+    cursor: pointer;
 }
 
 .navizq button:hover{
@@ -386,6 +387,8 @@ input{
     font-size: 17px;
     box-shadow: 3px 1px 40px rgb(46, 45, 45);
     transition: all 200ms;
+    width: 100%;
+    max-width: 169px;
 }
 
 input:hover{
@@ -827,5 +830,35 @@ input:hover{
 
     .bloquemapa{
         display: block;
+    }
+}
+
+@media (max-width: 500px){
+    .navder a{
+        margin-right: 0.5em;
+        font-size: 14px;
+    }
+    .navizq img{
+        margin-left: 0.2em;
+    }
+
+    .navizq button{
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+        top: 30%;
+    }
+
+    .noticias{
+        margin: auto;
+    }
+
+    .containernoticia img{
+        width: 170px;
+        height: 120px;
+    }
+
+    .bloquetextos p{
+        font-size: 13px;
     }
 }
